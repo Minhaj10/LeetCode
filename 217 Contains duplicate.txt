@@ -1,0 +1,24 @@
+Problem Link : https://leetcode.com/problems/contains-duplicate/description/
+
+Solution :
+
+Brute force approach:
+
+We can itterate through array twice with a nested loop and check the both nums[i] and nums[j] is same or not
+
+Time complexity : O(n^2)
+Space complexity : O(1)
+
+Using set :
+
+We know set only contains unique number.We can store all the number in set and check set size with nums arrray size.
+
+Time complexity : O(n)
+Space complexity: O(n)
+
+Using map :
+
+We can count number of occurence in map .If any element count greater than 1 return true
+
+Time complexity : O(n)
+Space complexity: O(n)
